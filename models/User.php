@@ -27,7 +27,7 @@ interface userDAOinterface
 
   public function create(User $user, $authUser = false);
 
-  public function update(User $user);
+  public function update(User $user, $redirect = true);
 
   public function verifyToken($protected = false);
 
