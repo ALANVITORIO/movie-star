@@ -35,6 +35,7 @@ if ($movie->image == "") {
 }
 
 // Checar se o filme é do usuário
+
 $userOwnsMovie = false;
 
 if (!empty($userData)) {
